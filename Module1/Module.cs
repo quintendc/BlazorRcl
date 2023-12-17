@@ -1,4 +1,5 @@
-﻿using Core;
+﻿using Core.BaseClasses;
+using Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +9,9 @@ using System.Threading.Tasks;
 
 namespace Module1
 {
-    public class Module : IModule
+    public class Module : ModuleBase
     {
-        public Assembly GetAssembly()
-        {
-            return Assembly.GetExecutingAssembly(); // Of gebruik een andere methode om de assembly te verkrijgen
-        }
+
     }
 
 }
