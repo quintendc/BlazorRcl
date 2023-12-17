@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BlazorAppWithRcl.Client\BlazorAppWithRcl.Client.csproj" />
     <ProjectReference Include="..\Module1\Module1.csproj" />
+    <ProjectReference Include="..\Module2\Module2.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
   </ItemGroup>
 

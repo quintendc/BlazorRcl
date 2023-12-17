@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppWithRcl", "BlazorAppWithRcl\BlazorAppWithRcl.csproj", "{724533C1-BAE5-4FC0-945B-5436CF666FC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppWithRcl", "BlazorAppWithRcl\BlazorAppWithRcl.csproj", "{724533C1-BAE5-4FC0-945B-5436CF666FC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppWithRcl.Client", "BlazorAppWithRcl.Client\BlazorAppWithRcl.Client.csproj", "{537362F9-0336-48CD-923F-67417073E68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppWithRcl.Client", "BlazorAppWithRcl.Client\BlazorAppWithRcl.Client.csproj", "{537362F9-0336-48CD-923F-67417073E68E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1", "Module1\Module1.csproj", "{8B51ED4B-767C-4747-9B47-4866AF917F61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module1", "Module1\Module1.csproj", "{8B51ED4B-767C-4747-9B47-4866AF917F61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{37B668C1-C743-4423-84A6-94C2E614AC70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core.csproj", "{37B668C1-C743-4423-84A6-94C2E614AC70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2", "Module2\Module2.csproj", "{50CC8574-1BF6-4EC8-9464-206C33052163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{37B668C1-C743-4423-84A6-94C2E614AC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B668C1-C743-4423-84A6-94C2E614AC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37B668C1-C743-4423-84A6-94C2E614AC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CC8574-1BF6-4EC8-9464-206C33052163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CC8574-1BF6-4EC8-9464-206C33052163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CC8574-1BF6-4EC8-9464-206C33052163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CC8574-1BF6-4EC8-9464-206C33052163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
