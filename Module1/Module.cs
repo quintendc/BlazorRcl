@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace Module1
 {
-    public class Module1 : IModule
+    public class Module : IModule
     {
-        // Voeg hier je specifieke implementatie toe
-        public Assembly GetModuleAssembly()
+        public Assembly GetAssembly()
         {
-            return typeof(Module1).Assembly;
+            return Assembly.GetExecutingAssembly(); // Of gebruik een andere methode om de assembly te verkrijgen
         }
     }
 
